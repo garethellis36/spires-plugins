@@ -1,0 +1,19 @@
+{
+  "require-dev": {
+    "phpoxford/spires": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Garethellis\\SpiresTldr\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/garethellis36/tldr-php"
+    }
+  ],
+  "require": {
+    "garethellis/tldr-php": "dev-master"
+  }
+}
